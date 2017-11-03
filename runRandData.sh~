@@ -1,0 +1,12 @@
+echo sample size 5
+./dfs random5.txt
+echo sample size 10
+./dfs random10.txt
+echo sample size 15
+./dfs random15.txt
+echo sample size 20
+./dfs random20.txt
+echo sample size 25
+./dfs random25.txt
+echo sample size 30
+./dfs random30.txt

@@ -1,0 +1,12 @@
+echo sample size 5
+./dfs smallTree5.txt
+echo sample size 10
+./dfs smallTree10.txt
+echo sample size 15
+./dfs smallTree15.txt
+echo sample size 20
+./dfs smallTree20.txt
+echo sample size 25
+./dfs smallTree25.txt
+echo sample size 30
+./dfs smallTree30.txt
