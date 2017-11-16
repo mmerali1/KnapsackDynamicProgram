@@ -243,6 +243,9 @@ int main(int argc,char* argv[]){
 	int opt_profit_bt = knapsack_backtrack(bt_root, ItemA, c, 0, n);
 	end = system_clock::now();
 	elapsed_seconds = end-start;
+	//Deallocate memory
+	delete bt_root;
+	delete p;
 	//prints out optimal solution and runtime	
 	cout << "Backtracking Algorithm" << endl;
 	cout << "Profit: " << opt_profit_bt << endl;	
